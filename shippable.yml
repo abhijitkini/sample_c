@@ -1,16 +1,1 @@
 language: c
-
-compiler:
-  - gcc
-  - clang
-
-build:
-  pre_ci:
-    - echo 'true'
-
-  ci:
-    - ./configure && make && make install
-    - ./hello
-
-  post_ci:
-    - echo "true"
