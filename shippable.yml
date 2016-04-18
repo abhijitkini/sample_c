@@ -1,4 +1,5 @@
 language: c
+<<<<<<< HEAD
 
 build:
   pre_ci:
@@ -10,3 +11,5 @@ ci:
 
 post_ci:
   - echo 'true'
+=======
+>>>>>>> 231652636b5efd0110c128933df7e0adceb0ebd1
