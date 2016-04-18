@@ -1,15 +1,16 @@
 language: c
-<<<<<<< HEAD
+
+compiler:
+  - gcc
+  - clang
 
 build:
   pre_ci:
     - echo 'true'
 
-ci:
-  - ./configure && make && make install
-  - ./hello
+  ci:
+    - ./configure && make && make install
+    - ./hello
 
-post_ci:
-  - echo 'true'
-=======
->>>>>>> 231652636b5efd0110c128933df7e0adceb0ebd1
+  post_ci:
+    - echo "true"
